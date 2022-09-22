@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+.cabeçalho {
+    width: 100vw;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;  
+    position: relative;
+    background-color: #222222;
+}
+.cabeçalho_menu_hamburguer {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/Vector.svg");
+    background-repeat: no-repeat;    
+    background-position:center;
+    display: inline-block;    
+}
+.lista-menu {
+    width: 100vw;
+    height: 70vh;
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0.5px;
+    list-style: none;
+    
+}
+.container_botao:checked~.lista-menu {
+    display: block;
+}
+.lista-menu_link {
+    text-decoration: none;
+    color:#FFFFFF;
+}
+.lista-menu_item {
+    padding: 0.5em;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;    
+}
+.lista-menu_item a:hover {
+    color: #D01418;
+}
+#menu {
+    display: none;
+
+}.container_imagem-logo {
+    width: 100%;
+    height: 100%;
+} 
+.opções {
+    display: none;
+}

@@ -1,0 +1,141 @@
+
+/*main*/
+.banner-m {
+    width: 100vw;
+    height: 512px;
+    background-image: url("../img/img_banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    gap: 50px;    
+}
+h1 {
+    
+    width: 336px;
+    height: 133px;
+    color: #f3f3f3;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+h1 span {
+    color: #D01418;
+
+}
+button {
+    width: 220px;
+    height: 61px;
+    background-color: #D01418;
+    font-size: 25px;
+    color:#f3f3f3;
+    border-radius: 5px;
+    font-weight: 500;
+}
+/*produtos*/
+h2 {
+    text-align: center;
+}
+.destaques {
+    width: 100vw;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.card1 {
+    width: 240px;
+    height: 322px;
+    background-color: #f3f3f3;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+    border-radius: 5px;
+}
+.vector {
+    color:#D01418;  
+}
+
+.card2 {
+    width: 240px;
+    height: 322px;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+    border-radius: 5px;
+}
+.card3 {
+    width: 240px;
+    height: 322px;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+    border-radius: 5px;
+    
+}
+p {
+    font-size: 20px;
+    font-weight: 400;
+    text-align:left;
+    padding-left: 10px; 
+}
+.prestação {
+    font-size: 13px;
+    font-weight: 400;
+}
+.envio_gratis {
+    color: #619D00;
+    font-size: 10px;
+}
+.img4 {
+    width: 288px;
+    height: 108px;
+    background-image: url("../img/cadeira.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+}
+.img5 {
+    width: 288px;
+    height: 108px;
+    background-image: url("../img/computadores.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+}
+.estrelas {
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+h4 {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: #f3f3f3;
+    align-items: center;
+}
+hr {
+    width: 240px;
+}
+.banner-desktop {
+    display: none;
+}
